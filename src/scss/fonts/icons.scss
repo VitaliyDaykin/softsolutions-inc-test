@@ -1,0 +1,46 @@
+%ic {
+    font-family: "icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+    &:before {
+        @extend %ic;
+        display: block;
+    }
+}
+
+._icon-list-icon:before {
+	content: "\e905";
+	color: #109cf1;
+  }
+  ._icon-youtube:before {
+	content: "\e906";
+	color: #109cf1;
+  }
+  ._icon-hits_today:before {
+	content: "\e900";
+	color: #109cf1;
+  }
+  ._icon-total_hits:before {
+	content: "\e901";
+	color: #109cf1;
+  }
+  ._icon-total_visit:before {
+	content: "\e902";
+	color: #109cf1;
+  }
+  ._icon-visit_today:before {
+	content: "\e903";
+	color: #109cf1;
+  }
+  ._icon-whos_online:before {
+	content: "\e904";
+	color: #109cf1;
+  }
+  
